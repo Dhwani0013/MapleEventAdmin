@@ -1,0 +1,104 @@
+.profile-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-page h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #06355c;
+}
+
+.profile-container {
+  padding: 20px;
+  align-items: center;
+}
+
+.profile-photo {
+  margin-bottom: 20px;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+}
+
+.profile-photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #06355c;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-photo img.clickable:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+.profile-photo .photo-input {
+  margin-top: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  resize: none;
+  height: 80px;
+}
+
+input:disabled,
+textarea:disabled {
+  background-color: #e9ecef;
+  cursor: not-allowed;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-actions button:first-child {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.form-actions button:first-child:hover {
+  background-color: #218838;
+}
+
+.form-actions button:last-child {
+  background-color: #0d2b4b;
+  color: #fff;
+}
+
+.form-actions button:last-child:hover {
+  background-color: #363c43;
+}
